@@ -51,8 +51,8 @@ Painting.defaultProps = {
 Painting.propTypes = {
   url: PropTypes.string,
   title: PropTypes.string.isRequired,
-  authorUrl: PropTypes.string.isRequired,
-  authorTag: PropTypes.string.isRequired,
+  /* authorUrl: PropTypes.string.isRequired,
+  authorTag: PropTypes.string.isRequired, */
   price: PropTypes.number.isRequired,
   quantity: PropTypes.number.isRequired,
 };
